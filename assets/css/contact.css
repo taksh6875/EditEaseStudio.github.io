@@ -171,23 +171,6 @@ ul {
 }
 
 
-/* FOOTER
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-footer {
-    font-size: 1rem;
-    text-align: center;
-    backface-visibility: hidden;
-}
-
-footer a {
-    text-decoration: none;
-}
-
-footer span {
-    color: var(--red);
-}
-
-
 /* MQ
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 @media screen and (min-width: 600px) {
