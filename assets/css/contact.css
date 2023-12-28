@@ -85,6 +85,9 @@ ul {
     filter: blur(2px);
 }
 
+.my-form ul{
+    margin-right: 36px;
+}
 
 /* FORM BTNS
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
