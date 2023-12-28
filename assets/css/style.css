@@ -12090,6 +12090,7 @@ a:hover, a:active {
 --------------------------------------------------------------*/
 .site-footer {
   padding-bottom: 90px;
+  text-align: center;
 }
 @media only screen and (max-width: 767px) {
   .site-footer {
@@ -12175,7 +12176,7 @@ a:hover, a:active {
 .copyright-text > p {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
-  display: inline-flex;
+  /* display: inline-flex; */
   -webkit-box-align: center;
   -ms-flex-align: center;
   align-items: center;
