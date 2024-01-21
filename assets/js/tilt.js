@@ -14,8 +14,8 @@ function onYouTubeIframeAPIReady() {
     }
 
     // Initialize players
-    players.push(createYouTubePlayer('player1', '_bnkd47Rx7c'));
-    players.push(createYouTubePlayer('player2', 'LMulIDnJL-I'));
+    players.push(createYouTubePlayer('player1', 'WqCASZmDdZA'));
+    players.push(createYouTubePlayer('player2', '3jjgKbiGCjo'));
     players.push(createYouTubePlayer('player3', 'Jzy9oZIZyyg'));
 
     // Function to pause other videos
