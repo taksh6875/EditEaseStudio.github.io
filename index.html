@@ -362,9 +362,7 @@
                             <li>
                                 <a href="" data-filter=".video" class="filter">Video</a>
                             </li>
-                            <li>
-                                <a href="" data-filter=".shorts" class="filter">Shorts</a>
-                            </li>
+                           
                             <li>
                                 <a href="" data-filter=".animation" class="filter">Animation</a>
                             </li>
@@ -423,6 +421,25 @@
                         <div class="portfolio-item">
                             <figure class="portfolio-thumb">
                                 <div class="video-wrapper">
+                                    <video id="custom-video-1" width="360" height="240" preload="metadata"
+                                        onclick="togglePlayPause(1)" poster="assets/video/Poster/ani_thumb_6.png">
+                                        <source src="assets/video/Animation/2.mp4" type="video/mp4" />
+                                        <source src="assets/video/Animation/2.mp4" type="video/webm" />
+                                        <p>Your browser doesn't support HTML5 video. Here is a <a
+                                                href="assets/video/Animation/2.mp4" download="true">link to the
+                                                video</a> instead.</p>
+                                    </video>
+                                    <button id="play-btn-1" class="play-btn" onclick="togglePlayPause(1)">
+                                        <i class="icofont-youtube-play"></i>
+                                    </button>
+                                </div>
+                            </figure><!-- /.portfolio-thumb -->
+                        </div><!-- /.portfolio-item -->
+                    </div>
+                    <div class="item col-lg-4 col-md-4 animation">
+                        <div class="portfolio-item">
+                            <figure class="portfolio-thumb">
+                                <div class="video-wrapper">
                                     <video id="custom-video-2" width="360" height="240" preload="metadata"
                                         onclick="togglePlayPause(2)" poster="assets/video/Poster/ani_thumb_3.png">
                                         <source src="assets/video/Animation/1.mp4" type="video/webm" />
@@ -433,25 +450,6 @@
                                     </video>
                                     <button id="play-btn-2" class="play-btn" style="color: #fff;"
                                         onclick="togglePlayPause(2)">
-                                        <i class="icofont-youtube-play"></i>
-                                    </button>
-                                </div>
-                            </figure><!-- /.portfolio-thumb -->
-                        </div><!-- /.portfolio-item -->
-                    </div>
-                    <div class="item col-lg-4 col-md-4 shorts">
-                        <div class="portfolio-item">
-                            <figure class="portfolio-thumb">
-                                <div class="video-wrapper">
-                                    <video id="custom-video-1" width="360" height="240" preload="metadata"
-                                        onclick="togglePlayPause(1)" poster="assets/video/Poster/short_thumb_4.png">
-                                        <source src="assets/video/Lakshadweep VS Maldives.mp4" type="video/mp4" />
-                                        <source src="assets/video/Lakshadweep VS Maldives.webm" type="video/webm" />
-                                        <p>Your browser doesn't support HTML5 video. Here is a <a
-                                                href="assets/video/Lakshadweep VS Maldives.mp4" download="true">link to the
-                                                video</a> instead.</p>
-                                    </video>
-                                    <button id="play-btn-1" class="play-btn" onclick="togglePlayPause(1)">
                                         <i class="icofont-youtube-play"></i>
                                     </button>
                                 </div>
